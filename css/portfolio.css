@@ -1,0 +1,141 @@
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+/*###########################################*/
+body {
+    padding-top: 2em;
+    background: url(symphony.png);
+font-family: 'Courgette', cursive;
+  font-size:14pt;
+  }
+  
+.main-body {
+    padding-top:3em;
+    margin-bottom:3em;
+}
+.style-rw-1{
+    padding-bottom:3em;
+}
+.style-rw-1 h2{
+    width:auto;
+    letter-spacing:8px;
+     text-shadow:2px 2px gray;
+}
+.style-rw-1 h2 span{
+    background:#2AABD2;
+    color:white;
+    width:75px;
+    font-size:25.5pt;
+    padding-left:1em;
+} 
+
+.style-page{
+    font-size:15pt;
+    padding-left:1.5em;
+    padding-top:1em;
+    margin-bottom:1em;
+}
+
+.style-page h3{
+    color:#2AABD2;
+    text-decoration:underline;   
+}
+.style-page h4{
+    color:#2AABD2;
+    text-decoration:underline;
+    font-weight:bold;   
+}
+.style-page img{
+  margin-bottom: 1em;
+}
+
+.style-resume b{
+    color:#2AABD2;
+}
+
+.style-resume h4{
+    color:#080808;
+    margin-bottom:0;
+    font-weight:bold;
+}
+
+.style-resume small{
+    color:#2AABD2;
+    font-size:11pt;
+}
+
+.style-resume ul{
+    margin-bottom:1.5em;
+}
+.main-header{
+    background:#1d7792 url(pattern1.jpg);
+    text-align:center;
+    padding-top:3em;
+    padding-bottom:3em;
+    box-shadow: 0px 0px 15px black;
+}
+.main-header h1 {
+    font-size:40pt;
+    letter-spacing:5px;
+     color:white;
+     text-shadow:2px 2px gray;
+}
+.main-header h3, .main-header h4{
+    color:white;
+    text-shadow:2px 2px gray;
+}
+#dtime, #clock{
+    color:white;
+    text-shadow:2px 2px gray;
+}
+
+#halfOne{
+    color:white;
+    font-weight:bolder;
+}
+#halfTwo{
+  font-weight:lighter;
+  color:white;  
+}
+
+/*Nav bar custom*/
+.custom-nav{
+background:url(symphony.png);
+border-bottom: solid 1px #2AABD2;
+}
+
+.navbar-default .custom-brand{
+    color:#2AABD2;
+    font-weight:bold;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-brand:hover{
+    color:#265A88;
+    background-color:transparent;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    background-color: #2AABD2;
+    color: #ffffff; 
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:focus{
+    color:  #2AABD2;
+    background-color: transparent;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    text-decoration:none;
+    color: #ffffff;
+    background-color:#2AABD2;
+}
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open >
+ a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    border:solid thin #2AABD2;
+    color: black;
+    background-color:transparent;
+}
+
