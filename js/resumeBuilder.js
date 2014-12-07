@@ -1,3 +1,7 @@
+/*
+ * Uses json notation to populate the resume page
+ */
+ 
 var profile = {
 	"profile" : "Junior Web Developer looking to obtain a position where I can effectively utilize my skills to make a positive contribution to the organization"
 };
@@ -116,8 +120,8 @@ act.display = function() {
 	$("#activities").append(ac);
 };
 
-$("#profile").append(profile.display);
-$("#qualifications").append(skills.display);
-$("#edu").append(edu.display);
-$("#workexp").append(jobExp.display);
-$("#activities").append(act.display);
+$("#profile").append(profile.display).hide().fadeIn(5000);
+$("#qualifications").append(skills.display).hide().fadeIn(6000);
+$("#edu").append(edu.display).hide().fadeIn(7000);
+$("#workexp").append(jobExp.display).hide().fadeIn(8000);
+$("#activities").append(act.display).hide().fadeIn(9000);

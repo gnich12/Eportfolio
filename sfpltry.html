@@ -50,7 +50,7 @@
              </li>
      
             <li><a href="reflection.html">Reflection</a></li>
-       
+            <li> <a href="justfun.html">Just For Fun</a></li>
             <li><a href="coderepo.html">Code Repository</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -68,6 +68,15 @@
     </div>
      <div class="container-fluid">
         <div class="container main-body">
+             <noscript>
+                   <div class="alert alert-warning">
+                       <p >
+                            For full functionality of this page it is necessary to enable JavaScript. Here are the <a href="http://www.enable-javascript.com" target="_blank"> instructions how to enable JavaScript in your web browser </a>
+                        </p>
+                   </div>
+                            
+                        
+                </noscript>
             <div class="row ">
                 <div class="col-md-4 style-rw-1">
                     <h2><span>S</span>kills</h2>
@@ -102,7 +111,7 @@
             Here is a demo of the layout that i choose for the website
             
         </p>
-        <img src="images/layout_demo_1.jpg" class="img-responsive"/><br>
+        <img src="images/layout_demo_1.jpg" class="img-responsive" alt="layout_demo_1"/><br>
         <p class="bg-danger"><b>Update:</b>&nbsp; the picture demo above was the first version of this website. Last year i updated the layout of the website and i decided to use
             one column and distribute all the content. you can see it by clicking on the link i provided above.</p>
         <p>In order to speed up the development of this layout, i used a open source framework called YAML, because it offers me the flexibility to build a consistent layout, and its compatible with many common used browsers.
@@ -191,7 +200,7 @@ if (isset($_REQUEST['email']))
         <p>
             As for the banners on the webpages i took pictures of the front of the store, products and a picture of the store to make the banners. I used open source Inkscape and Gimp here is the home banner.    
         </p>
-        <img src="images/home_banner.JPG" class="img-responsive">
+        <img src="images/home_banner.JPG" class="img-responsive" alt="home_banner">
         <p>to see the live website please to go to <a href="http://www.wingonsfpoultry.com">http://www.wingonsfpoultry.com</a></p>
         <a href="#top" class="navbar-right">Back to Top&nbsp;<span class=" glyphicon glyphicon-arrow-up">&nbsp;</span></a>
       </div>
@@ -199,8 +208,31 @@ if (isset($_REQUEST['email']))
             </div>
            
         </div>
-    </div>
+    <!--</div>-->
     
+    
+     <hr class="spacer">
+        <div class="container-fluid footer">
+            <div class="container" >
+                <div class="row">
+                    <div class="col-md-4">
+                       <p>Copyrights &copy; belongs to Alvaro Ching </p> 
+                       <span id="dtime"></span>&nbsp;<span id="clock" ></span>
+                    </div>
+                    
+                    <div class="col-md-8 tech col-xs-9">
+                        <a href="http://www.w3.org/html/logo/">
+<img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-device-semantics.png" width="197" height="64" alt="HTML5 Powered with CSS3 / Styling, Device Access, and Semantics" title="HTML5 Powered with CSS3 / Styling, Device Access, and Semantics">
+</a>
+<a href="http://jquery.com"><img src="images/jqueryLogo.png" alt="Jquery"></a>
+<a href="http://getbootstrap.com"><img src="images/bootstrap-solid.png" alt="bootstrap"></a>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+        </div>
     
    
 
@@ -208,5 +240,6 @@ if (isset($_REQUEST['email']))
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/util.js"></script>
   </body>
 </html>
